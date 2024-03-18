@@ -2,4 +2,6 @@
 {
     return i * i;
 }
-Console.WriteLine(carre(4));
+int r;
+r=Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(carre(r));
